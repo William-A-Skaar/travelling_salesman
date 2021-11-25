@@ -11,7 +11,7 @@ Definerer variablene df (dataframe med de respektive avstandene), N (antall byer
 cities_lst og cities_lst_prm (hhv. byrepresentasjons liste fra 0 til N-1 og alle mulige rekkefølge-kombinasjoner av disse).
 """
 df = pnd.read_csv("european_cities.csv", delimiter = ";")
-N = 10
+N = 6
 cities_lst = list(range(N))
 cities_lst_prm = list(permutations(cities_lst))
 
