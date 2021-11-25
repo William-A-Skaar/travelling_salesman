@@ -107,6 +107,7 @@ worst_dist = max(cit_dist_lst)
 stand_runtime_ms = tot_time/len(ex_time_lst) # microseconds
 stand_runtime_s = round(stand_runtime_ms*1e-6, 3) # seconds with 3 decimals
 
+print(f"hillclimber method for finding distances between {N} cities")
 print(f"Longest distance = {int(worst_dist)} km")
 print(f"Average distance = {int(mean_dist)} km")
 print(f"Shortest distance = {int(best_dist)} km")
